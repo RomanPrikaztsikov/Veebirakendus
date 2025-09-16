@@ -1,0 +1,180 @@
+table#lihtne{
+    border: 1pt solid black;
+    width: 50%;
+    height: 200px;
+    border-collapse: collapse;
+}
+table#lihtne td{
+    border: 1pt solid black;
+    text-align: center;
+}
+table#lihtne tr:nth-child(1) td:nth-child(1){
+    background-color: red;
+}
+table#lihtne tr:nth-child(1) td:nth-child(2){
+    background-color: blue;
+}
+table#lihtne tr:nth-child(2) td:nth-child(1){
+    background-color: purple;
+}
+table#lihtne tr:nth-child(2) td:nth-child(2){
+    background-color: pink;
+}
+/*******Keeruline 1***********/
+table#keeruline1{
+    border: 1pt solid black;
+    width: 30%;
+    height: 200px;
+    border-collapse: collapse;
+}
+table#keeruline1 td{
+    border: 1pt solid black;
+    text-align: center;
+}
+/*******Keeruline 2***********/
+table#keeruline2{
+    border: 1pt solid black;
+    width: 30%;
+    height: 200px;
+    border-collapse: collapse;
+}
+table#keeruline2 td{
+    border: 1pt solid black;
+    text-align: center;
+}
+
+/*******Keeruline 1***********/
+table#keeruline1{
+    border: 1pt solid black;
+    width: 30%;
+    height: 200px;
+    border-collapse: collapse;
+}
+table#keeruline1 td{
+    border: 1pt solid black;
+    text-align: center;
+}
+
+/*******tabel3***********/
+table#tabel3{
+    border: 1pt solid black;
+    width: 30%;
+    height: 200px;
+    border-collapse: collapse;
+}
+table#tabel3 td{
+    border: 1pt solid black;
+    text-align: center;
+}
+
+/*******tabel4***********/
+table#tabel4{
+    border: 1pt solid black;
+    width: 30%;
+    height: 200px;
+    border-collapse: collapse;
+}
+table#tabel4 td{
+    border: 1pt solid black;
+    text-align: center;
+}
+
+/*******tabelul***********/
+table#tabelul{
+    border: 1pt solid black;
+    width: 30%;
+    height: 200px;
+    border-collapse: collapse;
+}
+table#tabelul td{
+    border: 1pt solid black;
+    text-align: center;
+}
+
+table#tabelul td {
+    border: 1pt solid black;
+    text-align: center;
+}
+
+table#tabelul tr:nth-child(1) td:nth-child(1) {
+    background-color: red;
+}
+table#tabelul tr:nth-child(1) td:nth-child(2) {
+    background-color: orange;
+}
+table#tabelul tr:nth-child(1) td:nth-child(3) {
+    background-color: orange;
+}
+table#tabelul tr:nth-child(1) td:nth-child(4) {
+    background-color: yellow;
+}
+
+table#tabelul tr:nth-child(2) td:nth-child(1) {
+    background-color: pink;
+}
+table#tabelul tr:nth-child(2) td:nth-child(2) {
+    background-color: pink;
+}
+table#tabelul tr:nth-child(2) td:nth-child(3) {
+    background-color: purple;
+}
+table#tabelul tr:nth-child(2) td:nth-child(4) {
+    background-color: green;
+}
+
+table#tabelul tr:nth-child(3) td:nth-child(1) {
+    background-color: blue;
+}
+
+table#tabelul tr:nth-child(4) td:nth-child(1) {
+    background-color: brown;
+}
+table#tabelul tr:nth-child(4) td:nth-child(2) {
+    background-color: gray;
+}
+
+table#tabelul tr:nth-child(5) td:nth-child(1) {
+    background-color: turquoise;
+}
+table#tabelul tr:nth-child(5) td:nth-child(2) {
+    background-color: turquoise;
+}
+
+table#tabelul tr:nth-child(6) td:nth-child(1) {
+    background-color: darkgray;
+}
+table#tabelul tr:nth-child(6) td:nth-child(2) {
+    background-color: darkgray;
+}
+table#tabelul tr:nth-child(6) td:nth-child(3) {
+    background-color: darkblue;
+}
+table#tabelul tr:nth-child(6) td:nth-child(4) {
+    background-color: darkblue;
+}
+
+table#tabelul tr:nth-child(7) td:nth-child(1) {
+    background-color: lightgreen;
+}
+table#tabelul tr:nth-child(7) td:nth-child(2) {
+    background-color: lightgreen;
+}
+table#tabelul tr:nth-child(7) td:nth-child(3) {
+    background-color: lightgreen;
+}
+table#tabelul tr:nth-child(7) td:nth-child(4) {
+    background-color: gold;
+}
+/***************************Ülesanne 4****************************/
+.ulesanne4-tabel {
+    border-collapse: collapse;
+}
+.ulesanne4-tabel th {
+    border: 1px solid black;
+    text-align: center;
+    width: 102px;
+    height: 42px;
+    vertical-align: middle;
+    background-color: blue;
+}
+
