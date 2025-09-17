@@ -1,0 +1,224 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold; 
+}
+
+main {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+main section {
+    flex: 1 1 40%;
+    max-width: 45%;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: darkblue;
+    background-image: url('Pildid/orange.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: auto 80%;
+    letter-spacing: 0.1cm;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    text-align: center;
+    min-height: 80px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin-left: 120px;
+}
+
+footer {
+    background-color: white;
+    border-top: 5px dashed darkblue;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+section.osa1 {
+    border-left: 2px dashed dimgray;
+    border-right: 2px dashed dimgray;
+    padding: 2%;
+    border-radius: 60px;
+}
+
+section.osa2 {
+    border-left: 2px solid darkblue;
+    border-right: 2px solid darkblue;
+    padding: 2%;
+    border-radius: 60px;
+}
+
+section.osa2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section.osa2 ul li {
+    margin-bottom: 10px;
+}
+
+section.osa2 ul li a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+section.osa2 ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.osa1 h2, .osa2 h2 {
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 10px;
+}
+
+.osa1 h2 {
+    color: dimgray;
+    font-family: Roboto, sans-serif;
+}
+
+.osa2 h2 {
+    color: darkblue;
+    font-family: "Comic Sans MS", sans-serif;
+    border-bottom: 2px solid darkblue;
+    text-align: center;
+}
+
+.osa1 div, .osa2 div {
+    padding: 10px;
+}
+
+nav {
+    /* Image has been removed from here */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: steelblue;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px; 
+    border-bottom: 2px solid steelblue;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+    border-bottom: 2px solid darkblue;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+iframe {
+    border: none;
+    max-width: 100%;
+}
+
+#google-maps-iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.small-img {
+    width: 100px;
+    margin-top: 15px;
+}
+
+ul#teemad {
+    list-style-type: none;
+    padding: 0;
+}
+
+#teemad li {
+    padding: 40px 0;
+    margin: 20px 0;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: "Bahnschrift", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+}
+
+#teemad li#html {
+    background-color: #E44D26;
+}
+
+#teemad li#css {
+    background-color: #264DE4;
+}
+
+#teemad li#js {
+    background-color: #F0DB4F;
+    color: black;
+    text-shadow: none;
+}
+
+#teemad li#php {
+    background-color: #777BB3;
+}
+
+#teemad li#wp {
+    background-color: #21759B;
+}
+
+#teemad li#react {
+    background-color: #61DAFB;
+    color: black;
+    text-shadow: none;
+}
